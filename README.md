@@ -1,4 +1,0 @@
-# azuremldemogggg
-
-dddddaaa
-dsss sdf
