@@ -1,1 +1,4 @@
 .ipynb_checkpoints/
+*.h5
+config.json
+conda-config.yml
