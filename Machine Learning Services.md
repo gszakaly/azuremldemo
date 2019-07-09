@@ -36,17 +36,11 @@ Click *Create*.
 
 If using local Jupyter Notebook, install azureml library
 
-    pip install --upgrade azureml-sdk
+    pip install azureml-sdk
 
-In Azure Portal type *subscription* into the search box at the top and select *Subscriptions*. Note the subscription ID.
+Open the newly created workspace in portal. On the Overview page click *Download JSON configuration*.
 
-Create new file *config.json* in the same folder as the Jupyter Notebook with the following content
-
-    {
-        "subscription_id": "<azure-subscription-id>",
-        "resource_group": "mldemoworkspace",
-        "workspace_name": "mldemoworkspace"
-    }
+Save/upload the *config.json* file in the same folder as the Jupyter Notebook *Fashion-MNIST Workspace Training*.
 
 ## Run training
 

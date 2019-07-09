@@ -3,6 +3,11 @@ from keras.models import Sequential
 from keras.layers import Conv2D, Dense, Flatten, Activation
 import numpy as np
 import keras
+import tensorflow as tf
+
+print('Python version: {}'.format(sys.version))
+print('Keras version: {}'.format(keras.__version__))
+print('Tensorflow version: {}'.format(tf.__version__))
 
 #
 # Parse input parameters
